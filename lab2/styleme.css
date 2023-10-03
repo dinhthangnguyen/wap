@@ -1,0 +1,38 @@
+.about {
+    background-color: lightyellow;
+}
+
+h1 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+
+h2 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+a:hover {
+    color: aqua;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+h2.neighbors {
+    color: pink;
+
+}
