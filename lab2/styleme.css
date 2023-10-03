@@ -2,6 +2,14 @@
     background-color: lightyellow;
 }
 
+.header h1 {
+    text-align: center;
+}
+
+.about>.header>p>strong {
+    color: palevioletred;
+}
+
 h1 {
     color: green;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,9 +24,14 @@ h2 {
     font-size: 30px;
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
 
 a:hover {
     color: aqua;
+    text-decoration: underline;
 }
 
 .img-container {
@@ -35,4 +48,34 @@ img {
 h2.neighbors {
     color: pink;
 
+}
+
+.header p {
+    font-size: 30px;
+}
+
+
+.header p::first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px
+}
+
+.movie li {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+li dt {
+    font-size: 15px;
+    color: green;
+    font-weight: 600;
+}
+
+li dd {
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
 }
