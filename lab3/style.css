@@ -1,0 +1,183 @@
+.body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+
+
+a {
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #199cd9;
+}
+
+.navleft {
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navleft_content {
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-divider {
+    margin: 10px;
+    border-left: 1px solid black;
+    height: 20px;
+}
+
+.navright {
+    float: right;
+    vertical-align: middle;
+}
+
+.navright li {
+    display: inline;
+    margin: 0 10px;
+  
+}
+
+ .navright li>a {
+    text-decoration: none;
+    color: #9d9c9c;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.main {
+    clear: both;
+    background-color: #f3f3f3;
+}
+
+.welcome {
+    display: block;
+    background-color: #115156;
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome p {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.horizon {
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    line-height: 0.1em;
+    margin: 20px 0 20px; 
+}
+
+.horizon span {
+    background: #f3f3f3;
+    padding: 0 10px;
+}
+
+.left_content {
+    margin-left: 50px;
+    width: 500px;
+}
+
+
+.left_content p {
+    color: #bdbeb5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.left_content img {
+    height: 40px;
+}
+
+
+.img-box {
+    background-color: white;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+}
+
+.left_content button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.remember_forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.input_group {
+     margin-top: 15px;
+}
+
+.left_content label {
+    color: #bdbeb5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.content_divider {
+    margin: 50px 100px;
+    border-left: 1px solid gray;
+    height: 560px;
+}
+
+
+.right_content {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #737072;
+}
+
+.right_content button {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
