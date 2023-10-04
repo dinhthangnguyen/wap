@@ -9,15 +9,14 @@
 </head>
 
 <body class="body">
-    <header class="navbar">
+    <header>
         <div class="navleft">
-            <div class="navleft_content">
+            <div>
                 <img class="logo" src="./images/miu.png" alt="MIU Logo">
                 <div class="nav-divider"></div>
                 <p>Maharishi University IT Dept</p>
             </div>
         </div>
-
 
         <div class="navright">
             <ul>
@@ -36,39 +35,45 @@
         </section>
 
         <section class="content">
-            <div class="left_content">
-                <h2>Login</h2>
-                <p>Login to know the status of the ticket</p>
-                <div class="img-box">
-                    <img src="./images/azure ad.png" alt="Azure">
-                </div>
-
-                <p class="horizon"><span>or login using</span></p>
-                <div class="input_group">
-                    <label >Username or Email</label>
-                    <input class="input" type="email" placeholder="Enter email">
-                </div>
-
-                <div class="input_group">
-                    <label >Password</label>
-                    <input class="input" type="password" placeholder="Enter password">
-                </div>
-                <div class="remember_forgot">
-                    <div>
-                        <input type="checkbox" name="Remember me" id="checkbox">
-                        <label for="checkbox">Remember me</label>
+            <div class="content_item">
+                <div class="left_content">
+                    <h2>Login</h2>
+                    <label>Login to know the status of the ticket</label>
+                    <div class="img-box">
+                        <img src="./images/azure ad.png" alt="Azure">
                     </div>
-                    <a href="">Forgot password</a>
+
+                    <p class="horizon"><span>or login using</span></p>
+                    <div class="input_group">
+                        <label>Username or Email</label>
+                        <input class="input" type="email" placeholder="Enter email">
+                    </div>
+
+                    <div class="input_group">
+                        <label>Password</label>
+                        <input class="input" type="password" placeholder="Enter password">
+                    </div>
+                    <div class="remember_forgot">
+                        <div>
+                            <input type="checkbox" name="Remember me" id="checkbox">
+                            <label for="checkbox">Remember me</label>
+                        </div>
+                        <a href="">Forgot password</a>
+                    </div>
+                    <button type="button">Login</button>
                 </div>
-                <button type="button">Login</button>
             </div>
 
             <div class="content_divider"></div>
-            <div class="right_content">
-                <p>Login to track your existing support requests. If you have not created a ticket yet than you would
-                    need to <a href="/register">register</a> or <a href="/createticket">create a new ticket</a> to begin
-                </p>
-                <button class="submit">Submit ticket</button>
+            <div class="content_item">
+                <div class="right_content">
+                    <p>Login to track your existing support requests. If you have not created a ticket yet than you
+                        would
+                        need to <a href="/register">register</a> or <a href="/createticket">create a new ticket</a> to
+                        begin
+                    </p>
+                    <button class="submit">Submit ticket</button>
+                </div>
             </div>
 
         </section>
