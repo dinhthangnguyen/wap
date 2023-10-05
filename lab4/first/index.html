@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <form action="http://www.google.com/search" method="get">
+            <div class="box">
+                <label for="email">Email address</label>
+            </div>
+
+            <div class="box">
+                <input class="textfield" type="email" name="email" id="email" placeholder="Enter email" required
+                    autofocus>
+                <div class="detail">
+                    <label for="email">We'll never share your email with anyone else</label>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <label for="password">Password</label>
+            </div>
+
+            <div class="box">
+                <input class="textfield" type="password" name="password" id="password" placeholder="Password" required
+                    pattern="(?=[0-9]+)(?=[A-Z]*)(?=[a-z]*).{10,}"
+                    title="Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter">
+            </div>
+            <div class="box">
+                <label for="checkme">
+                    <input type="checkbox" name="checkme" id="check"> Check me out
+                </label>
+            </div>
+
+            <div class="box">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   background-color: red;
+}
+
+.box {
+    margin: 20px 10px;
+}
+
+.detail {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #889098;
+}
+.textfield {
+    display: block;
+    width: calc(100% - 10px);
+    border: 1px solid #e0e0e0;
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border-style: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
