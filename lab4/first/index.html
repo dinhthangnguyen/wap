@@ -33,6 +33,16 @@
                     pattern="(?=.*[A-Z])(?=.*[0-9])(?=[a-z]*).{10,}"
                     title="Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter">
             </div>
+
+            <div class="box">
+                <label for="website">Website</label>
+            </div>
+
+            <div class="box">
+                <input class="textfield" type="text" name="website" id="website" placeholder="Website" required
+                    pattern="^((http:\/\/)|(https:\/\/)).*" title="beginning with either http:// or https://">
+            </div>
+
             <div class="box">
                 <label for="rememberme">
                     <input type="checkbox" name="rememberme" id="rememberme" required> Check me out
