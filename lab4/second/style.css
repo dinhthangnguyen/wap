@@ -1,11 +1,19 @@
-.container {
+h1 {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+form {
+    padding: 0 20px;
+}
 .form-group.row {
     margin-bottom: 20px;
 }
 
 .form-group.row.align-items-end {
     text-align: right;
+}
+
+.container button {
+    margin-left: 30px;
 }
