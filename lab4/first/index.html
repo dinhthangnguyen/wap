@@ -10,7 +10,7 @@
 
 <body>
     <main>
-        <form action="http://www.google.com/search" method="get">
+        <form action="https://www.google.com/search" method="get">
             <div class="box">
                 <label for="email">Email address</label>
             </div>
@@ -30,17 +30,17 @@
 
             <div class="box">
                 <input class="textfield" type="password" name="password" id="password" placeholder="Password" required
-                    pattern="(?=[0-9]+)(?=[A-Z]*)(?=[a-z]*).{10,}"
+                    pattern="(?=.*[A-Z])(?=.*[0-9])(?=[a-z]*).{10,}"
                     title="Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter">
             </div>
             <div class="box">
                 <label for="checkme">
-                    <input type="checkbox" name="checkme" id="check"> Check me out
+                    <input type="checkbox" name="checkme" id="checkme"> Check me out
                 </label>
             </div>
 
             <div class="box">
-                <input type="submit" value="Submit">
+                <input type="submit">
             </div>
         </form>
 

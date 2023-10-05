@@ -1,0 +1,11 @@
+.container {
+    margin-top: 50px;
+}
+
+.form-group.row {
+    margin-bottom: 20px;
+}
+
+.form-group.row.align-items-end {
+    text-align: right;
+}
